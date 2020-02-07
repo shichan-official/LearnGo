@@ -1,11 +1,11 @@
 package main
 
-import "fmt"
+import f "fmt"
 
 const ok = true
 
 func main() {
 	var hello = "Hello GO!"
-	fmt.Println(hello, ok)
+	f.Println(hello, ok)
 	bye()
 }
